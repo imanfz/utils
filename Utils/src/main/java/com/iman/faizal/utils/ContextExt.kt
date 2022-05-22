@@ -34,6 +34,14 @@ fun Context.shortToast(message: String) {
     Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
 }
 
+class ToasterMessage {
+    companion object {
+        fun toastMessage(context: Context, message: String) {
+            Toast.makeText(context, message, Toast.LENGTH_SHORT).show()
+        }
+    }
+}
+
 fun Context.hasPermission(permission: String): Boolean {
     return ContextCompat.checkSelfPermission(this, permission) == PackageManager.PERMISSION_GRANTED
 }
