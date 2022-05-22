@@ -7,6 +7,10 @@ import com.bumptech.glide.load.resource.bitmap.CenterCrop
 import com.bumptech.glide.load.resource.bitmap.RoundedCorners
 import com.bumptech.glide.request.RequestOptions
 
+/**
+ * Created by Iman Faizal on 21/May/2022
+ **/
+
 fun ImageView.loadImage(url: String) {
     if (url.isEmpty()) return
 

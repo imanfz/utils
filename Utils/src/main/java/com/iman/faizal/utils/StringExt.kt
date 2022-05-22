@@ -3,6 +3,10 @@ package com.iman.faizal.utils
 import java.text.SimpleDateFormat
 import java.util.*
 
+/**
+ * Created by Iman Faizal on 21/May/2022
+ **/
+
 fun String.toDate(format: String, locale: Locale = Locale.getDefault()): Date? {
     return SimpleDateFormat(format, locale).parse(this)
 }

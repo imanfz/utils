@@ -9,6 +9,10 @@ import java.io.IOException
 import java.net.InetSocketAddress
 import java.net.Socket
 
+/**
+ * Created by Iman Faizal on 21/May/2022
+ **/
+
 fun isConnectionOn(context: Context): Boolean {
     val connectivityManager =
         context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager

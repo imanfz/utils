@@ -4,6 +4,10 @@ import android.view.View
 import android.widget.AutoCompleteTextView
 import androidx.core.content.res.ResourcesCompat
 
+/**
+ * Created by Iman Faizal on 21/May/2022
+ **/
+
 fun AutoCompleteTextView.setupDropdownUI() {
 //        dropDownVerticalOffset = 10
 //        setDropDownBackgroundResource(R.drawable.bg_circle_white_r20)

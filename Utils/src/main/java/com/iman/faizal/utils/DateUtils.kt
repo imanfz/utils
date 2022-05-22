@@ -6,6 +6,10 @@ import android.widget.TextView
 import java.text.SimpleDateFormat
 import java.util.*
 
+/**
+ * Created by Iman Faizal on 21/May/2022
+ **/
+
 fun getCurrentDateTime(): Date {
     return Calendar.getInstance().time
 }

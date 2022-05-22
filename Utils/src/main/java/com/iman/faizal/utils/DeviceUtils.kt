@@ -3,6 +3,9 @@ package com.iman.faizal.utils
 import android.os.Build
 import java.util.*
 
+/**
+ * Created by Iman Faizal on 21/May/2022
+ **/
 
 fun getUUID(): UUID {
     return UUID.randomUUID()

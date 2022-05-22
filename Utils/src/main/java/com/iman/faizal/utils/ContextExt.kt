@@ -8,6 +8,10 @@ import android.view.inputmethod.InputMethodManager
 import android.widget.Toast
 import androidx.core.content.ContextCompat
 
+/**
+ * Created by Iman Faizal on 21/May/2022
+ **/
+
 fun Context.hideKeyboard() {
     val inputMethodManager =
         this.getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
