@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="form_must_be_not_empty">Form must not empty</string>
+    <string name="name_must_be_3_char">Name must be 3 character</string>
+    <string name="email_format">Please input valid email</string>
+    <string name="phone_format">Please input valid phone number</string>
+    <string name="phone_or_email_format">Please input valid email or phone number</string>
+    <string name="password_format">Must be 8–16 characters long, contain letters and numbers</string>
+    <string name="strong_password_format">Must be 8–16 characters long, contain uppercase, lowercase letters, numbers, and characters</string>
+    <string name="password_not_match">Confirm password is not the same</string>
+</resources>
